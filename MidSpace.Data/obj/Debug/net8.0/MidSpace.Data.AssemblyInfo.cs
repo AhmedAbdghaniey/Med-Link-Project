@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MidSpace.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8da40de1d01acfec8b3721234fbc4869e1908e8e")]
 [assembly: System.Reflection.AssemblyProductAttribute("MidSpace.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MidSpace.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

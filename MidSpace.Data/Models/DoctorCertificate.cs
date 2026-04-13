@@ -14,7 +14,7 @@ namespace MidSpace.Data.Models
         public string CertificateName { get; set; }
         public string IssuingOrganization { get; set; }
         public DateTime IssueDate { get; set; }
-        public int DoctorID { get; set; }
+        public int? DoctorID { get; set; }
         public Doctor Doctor { get; set; }
     }
 }

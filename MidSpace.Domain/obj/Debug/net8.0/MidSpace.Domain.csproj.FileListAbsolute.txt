@@ -20,3 +20,16 @@ D:\DEPI\midSpace\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.dll
 D:\DEPI\midSpace\MidSpace.Domain\obj\Debug\net8.0\refint\MidSpace.Domain.dll
 D:\DEPI\midSpace\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.pdb
 D:\DEPI\midSpace\MidSpace.Domain\obj\Debug\net8.0\ref\MidSpace.Domain.dll
+C:\Users\Options\source\repos\Med-Link-Project\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Domain.deps.json
+C:\Users\Options\source\repos\Med-Link-Project\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Domain.dll
+C:\Users\Options\source\repos\Med-Link-Project\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Domain.pdb
+C:\Users\Options\source\repos\Med-Link-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Options\source\repos\Med-Link-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.AssemblyInfoInputs.cache
+C:\Users\Options\source\repos\Med-Link-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.AssemblyInfo.cs
+C:\Users\Options\source\repos\Med-Link-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Options\source\repos\Med-Link-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.sourcelink.json
+C:\Users\Options\source\repos\Med-Link-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.dll
+C:\Users\Options\source\repos\Med-Link-Project\MidSpace.Domain\obj\Debug\net8.0\refint\MidSpace.Domain.dll
+C:\Users\Options\source\repos\Med-Link-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.pdb
+C:\Users\Options\source\repos\Med-Link-Project\MidSpace.Domain\obj\Debug\net8.0\ref\MidSpace.Domain.dll
+C:\Users\Options\source\repos\Med-Link-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.csproj.AssemblyReference.cache

@@ -29,6 +29,7 @@ namespace MidSpace.Data.Models
         public virtual Doctor? Doctor { get; set; } 
         public virtual Patient? Patient { get; set; }
         public virtual Admin? Admin { get; set; }
+        public PharmaRepresentative PharmaRepresentative { get; set; } // Navigation Properity
 
 
     }

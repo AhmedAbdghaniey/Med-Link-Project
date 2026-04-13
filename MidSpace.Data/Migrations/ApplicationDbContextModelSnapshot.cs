@@ -22,6 +22,21 @@ namespace MidSpace.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("ConferenceDoctor", b =>
+                {
+                    b.Property<int>("ConferencesConferenceId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("DoctorsDoctorId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ConferencesConferenceId", "DoctorsDoctorId");
+
+                    b.HasIndex("DoctorsDoctorId");
+
+                    b.ToTable("ConferenceDoctor");
+                });
+
             modelBuilder.Entity("MidSpace.Data.Models.Admin", b =>
                 {
                     b.Property<int>("AdminId")
@@ -47,6 +62,61 @@ namespace MidSpace.Data.Migrations
                     b.HasKey("AppointmentId");
 
                     b.ToTable("Appointments");
+                });
+
+            modelBuilder.Entity("MidSpace.Data.Models.Conference", b =>
+                {
+                    b.Property<int>("ConferenceId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ConferenceId"));
+
+                    b.Property<int?>("Capacity")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("ConferenceDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Location")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("PharmaCompanyId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("RegistrationDeadline")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ConferenceId");
+
+                    b.HasIndex("PharmaCompanyId");
+
+                    b.ToTable("conferences");
+                });
+
+            modelBuilder.Entity("MidSpace.Data.Models.ConferenceAttendance", b =>
+                {
+                    b.Property<int>("ConferenceAttendanceId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ConferenceAttendanceId"));
+
+                    b.Property<int>("DoctorId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ConferenceAttendanceId");
+
+                    b.HasIndex("DoctorId");
+
+                    b.ToTable("ConferenceAttendances");
                 });
 
             modelBuilder.Entity("MidSpace.Data.Models.Doctor", b =>
@@ -133,7 +203,7 @@ namespace MidSpace.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("DoctorID")
+                    b.Property<int?>("DoctorID")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("IssueDate")
@@ -148,6 +218,194 @@ namespace MidSpace.Data.Migrations
                     b.HasIndex("DoctorID");
 
                     b.ToTable("DoctorCertificates");
+                });
+
+            modelBuilder.Entity("MidSpace.Data.Models.DoctorJobRecommendation", b =>
+                {
+                    b.Property<int>("DoctorJobRecommendationId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DoctorJobRecommendationId"));
+
+                    b.Property<int?>("DoctorId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("HRDecisionNotes")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("JobOpportunityId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("RecommendationCreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("RecommendationMessage")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("RecommendationStatus")
+                        .HasColumnType("int");
+
+                    b.HasKey("DoctorJobRecommendationId");
+
+                    b.HasIndex("DoctorId");
+
+                    b.HasIndex("JobOpportunityId");
+
+                    b.ToTable("DoctorJobRecommendations");
+                });
+
+            modelBuilder.Entity("MidSpace.Data.Models.Drug", b =>
+                {
+                    b.Property<int>("DrugId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DrugId"));
+
+                    b.Property<int>("ApprovalStatus")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Category")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DrugName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("ReleaseDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("pharmaCompanyId")
+                        .HasColumnType("int");
+
+                    b.HasKey("DrugId");
+
+                    b.HasIndex("pharmaCompanyId");
+
+                    b.ToTable("Drugs");
+                });
+
+            modelBuilder.Entity("MidSpace.Data.Models.Hospital", b =>
+                {
+                    b.Property<int>("HospitalId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("HospitalId"));
+
+                    b.Property<string>("ContactEmail")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ContactPhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("HospitalAddress")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("HospitalDescription")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("HospitalName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("OfficialWebsiteUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("HospitalId");
+
+                    b.ToTable("Hospitals");
+                });
+
+            modelBuilder.Entity("MidSpace.Data.Models.JobApplication", b =>
+                {
+                    b.Property<int>("JobApplicationId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("JobApplicationId"));
+
+                    b.Property<DateTime?>("ApplicationSubmittedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CVFileUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CoverLetterText")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("DoctorId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("JobApplicationStatus")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("JobOpportunityId")
+                        .HasColumnType("int");
+
+                    b.HasKey("JobApplicationId");
+
+                    b.HasIndex("DoctorId");
+
+                    b.HasIndex("JobOpportunityId");
+
+                    b.ToTable("JobApplications");
+                });
+
+            modelBuilder.Entity("MidSpace.Data.Models.JobOpportunity", b =>
+                {
+                    b.Property<int>("JobOpportunityId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("JobOpportunityId"));
+
+                    b.Property<DateTime?>("ApplicationDeadline")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("EmploymentType")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("HospitalId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("JobDescription")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("JobLocation")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("JobOpportunityStatus")
+                        .HasColumnType("int");
+
+                    b.Property<string>("JobTitle")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal?>("MaximumSalary")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal?>("MinimumSalary")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime?>("PostedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("RequiredSpecialization")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("JobOpportunityId");
+
+                    b.HasIndex("HospitalId");
+
+                    b.ToTable("jobOpportunities");
                 });
 
             modelBuilder.Entity("MidSpace.Data.Models.Patient", b =>
@@ -200,7 +458,7 @@ namespace MidSpace.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PatientID")
+                    b.Property<int?>("PatientID")
                         .HasColumnType("int");
 
                     b.HasKey("AllergyID");
@@ -279,6 +537,72 @@ namespace MidSpace.Data.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Payments");
+                });
+
+            modelBuilder.Entity("MidSpace.Data.Models.PharmaCompany", b =>
+                {
+                    b.Property<int?>("PharmaCompanyId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int?>("PharmaCompanyId"));
+
+                    b.Property<string>("CompanyAddress")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CompanyDescription")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CompanyName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ContactEmail")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ContactPhone")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ContactPhoneactEmai")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("WebsiteUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("PharmaCompanyId");
+
+                    b.ToTable("PharmaCompanys");
+                });
+
+            modelBuilder.Entity("MidSpace.Data.Models.PharmaRepresentative", b =>
+                {
+                    b.Property<int>("PharmaRepresentativeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PharmaRepresentativeId"));
+
+                    b.Property<string>("CompanyPosition")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("PharmaCompanyId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("RepresentativeStatus")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("PharmaRepresentativeId");
+
+                    b.HasIndex("PharmaCompanyId");
+
+                    b.HasIndex("UserId")
+                        .IsUnique()
+                        .HasFilter("[UserId] IS NOT NULL");
+
+                    b.ToTable("pharmaRepresentatives");
                 });
 
             modelBuilder.Entity("MidSpace.Data.Models.Plan", b =>
@@ -447,6 +771,21 @@ namespace MidSpace.Data.Migrations
                     b.ToTable("UserPhones");
                 });
 
+            modelBuilder.Entity("ConferenceDoctor", b =>
+                {
+                    b.HasOne("MidSpace.Data.Models.Conference", null)
+                        .WithMany()
+                        .HasForeignKey("ConferencesConferenceId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("MidSpace.Data.Models.Doctor", null)
+                        .WithMany()
+                        .HasForeignKey("DoctorsDoctorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("MidSpace.Data.Models.Admin", b =>
                 {
                     b.HasOne("MidSpace.Data.Models.User", "User")
@@ -456,6 +795,26 @@ namespace MidSpace.Data.Migrations
                         .IsRequired();
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("MidSpace.Data.Models.Conference", b =>
+                {
+                    b.HasOne("MidSpace.Data.Models.PharmaCompany", "PharmaCompany")
+                        .WithMany("Conferences")
+                        .HasForeignKey("PharmaCompanyId");
+
+                    b.Navigation("PharmaCompany");
+                });
+
+            modelBuilder.Entity("MidSpace.Data.Models.ConferenceAttendance", b =>
+                {
+                    b.HasOne("MidSpace.Data.Models.Doctor", "Doctor")
+                        .WithMany("ConferenceAttendances")
+                        .HasForeignKey("DoctorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Doctor");
                 });
 
             modelBuilder.Entity("MidSpace.Data.Models.Doctor", b =>
@@ -484,11 +843,57 @@ namespace MidSpace.Data.Migrations
                 {
                     b.HasOne("MidSpace.Data.Models.Doctor", "Doctor")
                         .WithMany("Certificates")
-                        .HasForeignKey("DoctorID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("DoctorID");
 
                     b.Navigation("Doctor");
+                });
+
+            modelBuilder.Entity("MidSpace.Data.Models.DoctorJobRecommendation", b =>
+                {
+                    b.HasOne("MidSpace.Data.Models.Doctor", "Doctor")
+                        .WithMany("DoctorJobRecommendationS")
+                        .HasForeignKey("DoctorId");
+
+                    b.HasOne("MidSpace.Data.Models.JobOpportunity", "JobOpportunity")
+                        .WithMany("DoctorJobRecommendationS")
+                        .HasForeignKey("JobOpportunityId");
+
+                    b.Navigation("Doctor");
+
+                    b.Navigation("JobOpportunity");
+                });
+
+            modelBuilder.Entity("MidSpace.Data.Models.Drug", b =>
+                {
+                    b.HasOne("MidSpace.Data.Models.PharmaCompany", "pharmaCompany")
+                        .WithMany("Drugs")
+                        .HasForeignKey("pharmaCompanyId");
+
+                    b.Navigation("pharmaCompany");
+                });
+
+            modelBuilder.Entity("MidSpace.Data.Models.JobApplication", b =>
+                {
+                    b.HasOne("MidSpace.Data.Models.Doctor", "Doctor")
+                        .WithMany("JobApplications")
+                        .HasForeignKey("DoctorId");
+
+                    b.HasOne("MidSpace.Data.Models.JobOpportunity", "JobOpportunity")
+                        .WithMany("JobApplications")
+                        .HasForeignKey("JobOpportunityId");
+
+                    b.Navigation("Doctor");
+
+                    b.Navigation("JobOpportunity");
+                });
+
+            modelBuilder.Entity("MidSpace.Data.Models.JobOpportunity", b =>
+                {
+                    b.HasOne("MidSpace.Data.Models.Hospital", "Hospital")
+                        .WithMany("JobOpportunitys")
+                        .HasForeignKey("HospitalId");
+
+                    b.Navigation("Hospital");
                 });
 
             modelBuilder.Entity("MidSpace.Data.Models.Patient", b =>
@@ -506,9 +911,7 @@ namespace MidSpace.Data.Migrations
                 {
                     b.HasOne("MidSpace.Data.Models.Patient", "Patient")
                         .WithMany("Allergies")
-                        .HasForeignKey("PatientID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("PatientID");
 
                     b.Navigation("Patient");
                 });
@@ -545,6 +948,21 @@ namespace MidSpace.Data.Migrations
                     b.Navigation("Subscription");
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("MidSpace.Data.Models.PharmaRepresentative", b =>
+                {
+                    b.HasOne("MidSpace.Data.Models.PharmaCompany", "PharmaCompany")
+                        .WithMany("PharmaRepresentatives")
+                        .HasForeignKey("PharmaCompanyId");
+
+                    b.HasOne("MidSpace.Data.Models.User", "C")
+                        .WithOne("PharmaRepresentative")
+                        .HasForeignKey("MidSpace.Data.Models.PharmaRepresentative", "UserId");
+
+                    b.Navigation("C");
+
+                    b.Navigation("PharmaCompany");
                 });
 
             modelBuilder.Entity("MidSpace.Data.Models.PlanFeature", b =>
@@ -603,6 +1021,24 @@ namespace MidSpace.Data.Migrations
                     b.Navigation("Availabilities");
 
                     b.Navigation("Certificates");
+
+                    b.Navigation("ConferenceAttendances");
+
+                    b.Navigation("DoctorJobRecommendationS");
+
+                    b.Navigation("JobApplications");
+                });
+
+            modelBuilder.Entity("MidSpace.Data.Models.Hospital", b =>
+                {
+                    b.Navigation("JobOpportunitys");
+                });
+
+            modelBuilder.Entity("MidSpace.Data.Models.JobOpportunity", b =>
+                {
+                    b.Navigation("DoctorJobRecommendationS");
+
+                    b.Navigation("JobApplications");
                 });
 
             modelBuilder.Entity("MidSpace.Data.Models.Patient", b =>
@@ -610,6 +1046,15 @@ namespace MidSpace.Data.Migrations
                     b.Navigation("Allergies");
 
                     b.Navigation("Diseases");
+                });
+
+            modelBuilder.Entity("MidSpace.Data.Models.PharmaCompany", b =>
+                {
+                    b.Navigation("Conferences");
+
+                    b.Navigation("Drugs");
+
+                    b.Navigation("PharmaRepresentatives");
                 });
 
             modelBuilder.Entity("MidSpace.Data.Models.Plan", b =>
@@ -638,6 +1083,9 @@ namespace MidSpace.Data.Migrations
                     b.Navigation("Patient");
 
                     b.Navigation("Payments");
+
+                    b.Navigation("PharmaRepresentative")
+                        .IsRequired();
 
                     b.Navigation("Phones");
 

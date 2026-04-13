@@ -26,5 +26,10 @@ namespace MidSpace.Data.Models
         public User User { get; set; } = null!;
         public ICollection<DoctorCertificate> Certificates { get; set; }= new HashSet<DoctorCertificate>();
         public ICollection<DoctorAvailability> Availabilities { get; set; }= new HashSet<DoctorAvailability>();
+        public ICollection<JobApplication> JobApplications { get; set; } = new HashSet<JobApplication>();// Navigation Properity
+        public ICollection<DoctorJobRecommendation> DoctorJobRecommendationS { get; set; } = new HashSet<DoctorJobRecommendation>();// Navigation Properity
+        public ICollection<Conference> Conferences { get; set; } = new HashSet<Conference>();// Navigation Properity
+        public ICollection<ConferenceAttendance> ConferenceAttendances { get; set; } = new HashSet<ConferenceAttendance>();// Navigation Properity
+
     }
 }

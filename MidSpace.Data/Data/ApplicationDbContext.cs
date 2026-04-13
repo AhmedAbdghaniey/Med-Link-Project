@@ -25,6 +25,18 @@ namespace MidSpace.Data.Data
         DbSet<PlanFeature> PlanFeatures { get; set; }
         DbSet<Payment> Payments { get; set; }
         DbSet<Appointment> Appointments { get; set; }
+        public DbSet<Hospital> Hospitals  { get; set; }
+        public DbSet<JobOpportunity> jobOpportunities { get; set; }
+        public DbSet<JobApplication> JobApplications { get; set; }
+        public DbSet<DoctorJobRecommendation> DoctorJobRecommendations { get; set; }
+        public DbSet<PharmaCompany> PharmaCompanys { get; set; }
+        public DbSet<PharmaRepresentative> pharmaRepresentatives { get; set; }
+        public DbSet<Drug> Drugs { get; set; }
+        public DbSet<Conference> conferences { get; set; }
+        public DbSet<ConferenceAttendance> ConferenceAttendances { get; set; }
+
+
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Data Source=db47147.public.databaseasp.net;Initial Catalog=db47147;User Id=db47147;Password=7Qq_N@4o!eF2;Encrypt=False;");
