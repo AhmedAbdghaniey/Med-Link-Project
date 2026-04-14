@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MidSpace.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92b3fc6022a1161cf6bf6be60a89e0eede7460c6")]
 [assembly: System.Reflection.AssemblyProductAttribute("MidSpace.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MidSpace.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
