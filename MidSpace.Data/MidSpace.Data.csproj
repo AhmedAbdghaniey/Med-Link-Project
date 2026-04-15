@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="deleted files\**" />
+    <EmbeddedResource Remove="deleted files\**" />
+    <None Remove="deleted files\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Migrations\" />
     <Folder Include="SeedData\" />
     <Folder Include="Repository\" />
