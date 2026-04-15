@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Options\\source\\repos\\Med-Link-Project\\MidSpace.Domain\\MidSpace.Domain.csproj": {}
+    "D:\\DEPI\\Mid-Space-Project\\MidSpace.Domain\\MidSpace.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Options\\source\\repos\\Med-Link-Project\\MidSpace.Domain\\MidSpace.Domain.csproj": {
+    "D:\\DEPI\\Mid-Space-Project\\MidSpace.Domain\\MidSpace.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Options\\source\\repos\\Med-Link-Project\\MidSpace.Domain\\MidSpace.Domain.csproj",
+        "projectUniqueName": "D:\\DEPI\\Mid-Space-Project\\MidSpace.Domain\\MidSpace.Domain.csproj",
         "projectName": "MidSpace.Domain",
-        "projectPath": "C:\\Users\\Options\\source\\repos\\Med-Link-Project\\MidSpace.Domain\\MidSpace.Domain.csproj",
-        "packagesPath": "C:\\Users\\Options\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Options\\source\\repos\\Med-Link-Project\\MidSpace.Domain\\obj\\",
+        "projectPath": "D:\\DEPI\\Mid-Space-Project\\MidSpace.Domain\\MidSpace.Domain.csproj",
+        "packagesPath": "C:\\Users\\sw\\.nuget\\packages\\",
+        "outputPath": "D:\\DEPI\\Mid-Space-Project\\MidSpace.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Options\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sw\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -30,6 +30,7 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -44,10 +45,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Swashbuckle.AspNetCore": {
@@ -66,26 +68,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.24, 8.0.24]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.24, 8.0.24]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.24, 8.0.24]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

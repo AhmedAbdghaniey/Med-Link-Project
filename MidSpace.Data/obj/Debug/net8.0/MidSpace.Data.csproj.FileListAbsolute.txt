@@ -56,3 +56,33 @@ C:\Users\Ahmed Ali\source\repos\Mid-Space-Project\MidSpace.Data\obj\Debug\net8.0
 C:\Users\Ahmed Ali\source\repos\Mid-Space-Project\MidSpace.Data\obj\Debug\net8.0\MidSpace.Data.pdb
 C:\Users\Ahmed Ali\source\repos\Mid-Space-Project\MidSpace.Data\obj\Debug\net8.0\MidSpace.Data.genruntimeconfig.cache
 C:\Users\Ahmed Ali\source\repos\Mid-Space-Project\MidSpace.Data\obj\Debug\net8.0\ref\MidSpace.Data.dll
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Data\bin\Debug\net8.0\MidSpace.Data.deps.json
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Data\bin\Debug\net8.0\MidSpace.Data.runtimeconfig.json
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Data\bin\Debug\net8.0\MidSpace.Data.dll
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Data\bin\Debug\net8.0\MidSpace.Data.pdb
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Data\obj\Debug\net8.0\MidSpace.Data.csproj.AssemblyReference.cache
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Data\obj\Debug\net8.0\MidSpace.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Data\obj\Debug\net8.0\MidSpace.Data.AssemblyInfoInputs.cache
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Data\obj\Debug\net8.0\MidSpace.Data.AssemblyInfo.cs
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Data\obj\Debug\net8.0\MidSpace.Data.csproj.CoreCompileInputs.cache
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Data\obj\Debug\net8.0\MidSpace.Data.sourcelink.json
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Data\obj\Debug\net8.0\MidSpace.Data.dll
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Data\obj\Debug\net8.0\refint\MidSpace.Data.dll
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Data\obj\Debug\net8.0\MidSpace.Data.pdb
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Data\obj\Debug\net8.0\MidSpace.Data.genruntimeconfig.cache
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Data\obj\Debug\net8.0\ref\MidSpace.Data.dll
+D:\DEPI\Mid-Space-Project\MidSpace.Data\bin\Debug\net8.0\MidSpace.Data.deps.json
+D:\DEPI\Mid-Space-Project\MidSpace.Data\bin\Debug\net8.0\MidSpace.Data.runtimeconfig.json
+D:\DEPI\Mid-Space-Project\MidSpace.Data\bin\Debug\net8.0\MidSpace.Data.dll
+D:\DEPI\Mid-Space-Project\MidSpace.Data\bin\Debug\net8.0\MidSpace.Data.pdb
+D:\DEPI\Mid-Space-Project\MidSpace.Data\obj\Debug\net8.0\MidSpace.Data.csproj.AssemblyReference.cache
+D:\DEPI\Mid-Space-Project\MidSpace.Data\obj\Debug\net8.0\MidSpace.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEPI\Mid-Space-Project\MidSpace.Data\obj\Debug\net8.0\MidSpace.Data.AssemblyInfoInputs.cache
+D:\DEPI\Mid-Space-Project\MidSpace.Data\obj\Debug\net8.0\MidSpace.Data.AssemblyInfo.cs
+D:\DEPI\Mid-Space-Project\MidSpace.Data\obj\Debug\net8.0\MidSpace.Data.csproj.CoreCompileInputs.cache
+D:\DEPI\Mid-Space-Project\MidSpace.Data\obj\Debug\net8.0\MidSpace.Data.sourcelink.json
+D:\DEPI\Mid-Space-Project\MidSpace.Data\obj\Debug\net8.0\MidSpace.Data.dll
+D:\DEPI\Mid-Space-Project\MidSpace.Data\obj\Debug\net8.0\refint\MidSpace.Data.dll
+D:\DEPI\Mid-Space-Project\MidSpace.Data\obj\Debug\net8.0\MidSpace.Data.pdb
+D:\DEPI\Mid-Space-Project\MidSpace.Data\obj\Debug\net8.0\MidSpace.Data.genruntimeconfig.cache
+D:\DEPI\Mid-Space-Project\MidSpace.Data\obj\Debug\net8.0\ref\MidSpace.Data.dll

@@ -33,3 +33,42 @@ C:\Users\Options\source\repos\Med-Link-Project\MidSpace.Domain\obj\Debug\net8.0\
 C:\Users\Options\source\repos\Med-Link-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.pdb
 C:\Users\Options\source\repos\Med-Link-Project\MidSpace.Domain\obj\Debug\net8.0\ref\MidSpace.Domain.dll
 C:\Users\Options\source\repos\Med-Link-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.csproj.AssemblyReference.cache
+C:\Users\Ahmed Ali\source\repos\Mid-Space-Project\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Domain.deps.json
+C:\Users\Ahmed Ali\source\repos\Mid-Space-Project\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Domain.dll
+C:\Users\Ahmed Ali\source\repos\Mid-Space-Project\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Domain.pdb
+C:\Users\Ahmed Ali\source\repos\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.csproj.AssemblyReference.cache
+C:\Users\Ahmed Ali\source\repos\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed Ali\source\repos\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.AssemblyInfoInputs.cache
+C:\Users\Ahmed Ali\source\repos\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.AssemblyInfo.cs
+C:\Users\Ahmed Ali\source\repos\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Ali\source\repos\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.sourcelink.json
+C:\Users\Ahmed Ali\source\repos\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.dll
+C:\Users\Ahmed Ali\source\repos\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\refint\MidSpace.Domain.dll
+C:\Users\Ahmed Ali\source\repos\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.pdb
+C:\Users\Ahmed Ali\source\repos\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\ref\MidSpace.Domain.dll
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Domain.deps.json
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Domain.dll
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Domain.pdb
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.csproj.AssemblyReference.cache
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.AssemblyInfoInputs.cache
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.AssemblyInfo.cs
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.csproj.CoreCompileInputs.cache
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.sourcelink.json
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.dll
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\refint\MidSpace.Domain.dll
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.pdb
+C:\Users\sw\Downloads\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\ref\MidSpace.Domain.dll
+D:\DEPI\Mid-Space-Project\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Domain.deps.json
+D:\DEPI\Mid-Space-Project\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Domain.dll
+D:\DEPI\Mid-Space-Project\MidSpace.Domain\bin\Debug\net8.0\MidSpace.Domain.pdb
+D:\DEPI\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.csproj.AssemblyReference.cache
+D:\DEPI\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEPI\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.AssemblyInfoInputs.cache
+D:\DEPI\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.AssemblyInfo.cs
+D:\DEPI\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.csproj.CoreCompileInputs.cache
+D:\DEPI\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.sourcelink.json
+D:\DEPI\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.dll
+D:\DEPI\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\refint\MidSpace.Domain.dll
+D:\DEPI\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\MidSpace.Domain.pdb
+D:\DEPI\Mid-Space-Project\MidSpace.Domain\obj\Debug\net8.0\ref\MidSpace.Domain.dll

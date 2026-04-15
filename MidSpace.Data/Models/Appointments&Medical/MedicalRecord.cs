@@ -1,6 +1,7 @@
 ﻿using MidSpace.Data.Models.user;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,10 +10,11 @@ namespace MidSpace.Data.Models.Appointments_Medical
 {
     internal class MedicalRecord
     {
+        [Key]
         public int RecordId { get; set; }
 
-        public int PatientId { get; set; }
-        public int DoctorId { get; set; }
+        public int? PatientId { get; set; }
+        public int? DoctorId { get; set; }
         public int AppointmentId { get; set; }
 
         public string Symptoms { get; set; }

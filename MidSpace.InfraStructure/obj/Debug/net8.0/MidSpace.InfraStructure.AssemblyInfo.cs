@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MidSpace.InfraStructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8da40de1d01acfec8b3721234fbc4869e1908e8e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c7849f06aa9f38a6cb88bfdb787708abe6f0d94")]
 [assembly: System.Reflection.AssemblyProductAttribute("MidSpace.InfraStructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MidSpace.InfraStructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

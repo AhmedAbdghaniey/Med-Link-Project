@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ahmed Ali\\source\\repos\\Mid-Space-Project\\MidSpace.Data\\MidSpace.Data.csproj": {}
+    "D:\\DEPI\\Mid-Space-Project\\MidSpace.Data\\MidSpace.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ahmed Ali\\source\\repos\\Mid-Space-Project\\MidSpace.Data\\MidSpace.Data.csproj": {
+    "D:\\DEPI\\Mid-Space-Project\\MidSpace.Data\\MidSpace.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ahmed Ali\\source\\repos\\Mid-Space-Project\\MidSpace.Data\\MidSpace.Data.csproj",
+        "projectUniqueName": "D:\\DEPI\\Mid-Space-Project\\MidSpace.Data\\MidSpace.Data.csproj",
         "projectName": "MidSpace.Data",
-        "projectPath": "C:\\Users\\Ahmed Ali\\source\\repos\\Mid-Space-Project\\MidSpace.Data\\MidSpace.Data.csproj",
-        "packagesPath": "C:\\Users\\Ahmed Ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ahmed Ali\\source\\repos\\Mid-Space-Project\\MidSpace.Data\\obj\\",
+        "projectPath": "D:\\DEPI\\Mid-Space-Project\\MidSpace.Data\\MidSpace.Data.csproj",
+        "packagesPath": "C:\\Users\\sw\\.nuget\\packages\\",
+        "outputPath": "D:\\DEPI\\Mid-Space-Project\\MidSpace.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ahmed Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sw\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -88,20 +88,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.26, 8.0.26]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.26, 8.0.26]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.26, 8.0.26]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
